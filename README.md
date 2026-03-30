@@ -1,55 +1,82 @@
-# pterodactyl-yolks - MCJars Java Docker Images
+# LaglessGG Yolks - Docker Images
 
-`pterodactyl-yolks` is a collection of Docker images for use with Pterodactyl Panel. These images are built on top of the official Docker images for Java, but with a few modifications to make them more suitable for use with the Official [Minecraft Version Changer for Pterodactyl](https://www.sourcexchange.net/products/version-changer) addon.
+A collection of Docker images for use with Pterodactyl Panel.
 
 ## Available Images
 
-* [`java`](https://github.com/LaglessGG/yolks/tree/main/java)
-  * [`java7`](https://github.com/LaglessGG/yolks/tree/main/java/7)
-    * `ghcr.io/laglessgg/yolks:java_7`
-  * [`java8`](https://github.com/LaglessGG/yolks/tree/main/java/8)
-    * `ghcr.io/laglessgg/yolks:java_8`
-  * [`java11`](https://github.com/LaglessGG/yolks/tree/main/java/11)
-    * `ghcr.io/laglessgg/yolks:java_11`
-  * [`java16`](https://github.com/LaglessGG/yolks/tree/main/java/16)
-    * `ghcr.io/laglessgg/yolks:java_16`
-  * [`java17`](https://github.com/LaglessGG/yolks/tree/main/java/17)
-    * `ghcr.io/laglessgg/yolks:java_17`
-  * [`java18`](https://github.com/LaglessGG/yolks/tree/main/java/18)
-    * `ghcr.io/laglessgg/yolks:java_18`
-  * [`java19`](https://github.com/LaglessGG/yolks/tree/main/java/19)
-    * `ghcr.io/laglessgg/yolks:java_19`
-  * [`java21`](https://github.com/LaglessGG/yolks/tree/main/java/21)
-    * `ghcr.io/laglessgg/yolks:java_21`
-  * [`java22`](https://github.com/LaglessGG/yolks/tree/main/java/22)
-    * `ghcr.io/laglessgg/yolks:java_22`
-  * [`java23`](https://github.com/LaglessGG/yolks/tree/main/java/23)
-    * `ghcr.io/laglessgg/yolks:java_23`
-  * [`java24`](https://github.com/LaglessGG/yolks/tree/main/java/24)
-    * `ghcr.io/laglessgg/yolks:java_24`
-  * [`java25`](https://github.com/LaglessGG/yolks/tree/main/java/25)
-    * `ghcr.io/laglessgg/yolks:java_25`
-  * **GraalVM**
-  * [`java17-graalvm`](https://github.com/LaglessGG/yolks/tree/main/java/graalvm-17)
-    * `ghcr.io/laglessgg/yolks:java_graalvm-17`
-  * [`java20-graalvm`](https://github.com/LaglessGG/yolks/tree/main/java/graalvm-20)
-    * `ghcr.io/laglessgg/yolks:java_graalvm-20`
-  * [`java21-graalvm`](https://github.com/LaglessGG/yolks/tree/main/java/graalvm-21)
-    * `ghcr.io/laglessgg/yolks:java_graalvm-21`
-  * [`java22-graalvm`](https://github.com/LaglessGG/yolks/tree/main/java/graalvm-22)
-    * `ghcr.io/laglessgg/yolks:java_graalvm-22`
-  * [`java23-graalvm`](https://github.com/LaglessGG/yolks/tree/main/java/graalvm-23)
-    * `ghcr.io/laglessgg/yolks:java_graalvm-23`
-  * **Zulu**
-  * [`java8-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-8)
-    * `ghcr.io/laglessgg/yolks:java_zulu-8`
-  * [`java11-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-11)
-    * `ghcr.io/laglessgg/yolks:java_zulu-11`
-  * [`java17-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-17)
-    * `ghcr.io/laglessgg/yolks:java_zulu-17`
-  * [`java21-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-21)
-    * `ghcr.io/laglessgg/yolks:java_zulu-21`
-  * [`java24-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-24)
-    * `ghcr.io/laglessgg/yolks:java_zulu-24`
-  * [`java25-zulu`](https://github.com/LaglessGG/yolks/tree/main/java/zulu-25)
-    * `ghcr.io/laglessgg/yolks:java_zulu-25`
+### Java (Eclipse Temurin)
+
+| Version | Image |
+|---------|-------|
+| Java 7 | `ghcr.io/laglessgg/yolks:java_7` |
+| Java 8 | `ghcr.io/laglessgg/yolks:java_8` |
+| Java 11 | `ghcr.io/laglessgg/yolks:java_11` |
+| Java 16 | `ghcr.io/laglessgg/yolks:java_16` |
+| Java 17 | `ghcr.io/laglessgg/yolks:java_17` |
+| Java 18 | `ghcr.io/laglessgg/yolks:java_18` |
+| Java 19 | `ghcr.io/laglessgg/yolks:java_19` |
+| Java 21 | `ghcr.io/laglessgg/yolks:java_21` |
+| Java 22 | `ghcr.io/laglessgg/yolks:java_22` |
+| Java 23 | `ghcr.io/laglessgg/yolks:java_23` |
+| Java 24 | `ghcr.io/laglessgg/yolks:java_24` |
+| Java 25 | `ghcr.io/laglessgg/yolks:java_25` |
+
+### Java (GraalVM)
+
+| Version | Image |
+|---------|-------|
+| Java 17 | `ghcr.io/laglessgg/yolks:java_graalvm-17` |
+| Java 20 | `ghcr.io/laglessgg/yolks:java_graalvm-20` |
+| Java 21 | `ghcr.io/laglessgg/yolks:java_graalvm-21` |
+| Java 22 | `ghcr.io/laglessgg/yolks:java_graalvm-22` |
+| Java 23 | `ghcr.io/laglessgg/yolks:java_graalvm-23` |
+
+### Java (Azul Zulu)
+
+| Version | Image |
+|---------|-------|
+| Java 8 | `ghcr.io/laglessgg/yolks:java_zulu-8` |
+| Java 11 | `ghcr.io/laglessgg/yolks:java_zulu-11` |
+| Java 17 | `ghcr.io/laglessgg/yolks:java_zulu-17` |
+| Java 21 | `ghcr.io/laglessgg/yolks:java_zulu-21` |
+| Java 24 | `ghcr.io/laglessgg/yolks:java_zulu-24` |
+| Java 25 | `ghcr.io/laglessgg/yolks:java_zulu-25` |
+
+### .NET
+
+| Version | Image |
+|---------|-------|
+| .NET 2.1 | `ghcr.io/laglessgg/yolks:dotnet_2.1` |
+| .NET 3.1 | `ghcr.io/laglessgg/yolks:dotnet_3.1` |
+| .NET 5 | `ghcr.io/laglessgg/yolks:dotnet_5` |
+| .NET 6 | `ghcr.io/laglessgg/yolks:dotnet_6` |
+| .NET 7 | `ghcr.io/laglessgg/yolks:dotnet_7` |
+| .NET 8 | `ghcr.io/laglessgg/yolks:dotnet_8` |
+| .NET 9 | `ghcr.io/laglessgg/yolks:dotnet_9` |
+| .NET 10 | `ghcr.io/laglessgg/yolks:dotnet_10` |
+
+### Hytale
+
+| Version | Image |
+|---------|-------|
+| Java 17 | `ghcr.io/laglessgg/yolks:hytale_17` |
+| Java 19 | `ghcr.io/laglessgg/yolks:hytale_19` |
+| Java 21 | `ghcr.io/laglessgg/yolks:hytale_21` |
+| Java 24 | `ghcr.io/laglessgg/yolks:hytale_24` |
+| Java 25 | `ghcr.io/laglessgg/yolks:hytale_25` |
+
+### OS
+
+| OS | Image |
+|----|-------|
+| Alpine | `ghcr.io/laglessgg/os:alpine` |
+| Debian | `ghcr.io/laglessgg/os:debian` |
+| Ubuntu | `ghcr.io/laglessgg/os:ubuntu` |
+
+### OS Install
+
+| OS | Image |
+|----|-------|
+| Alpine | `ghcr.io/laglessgg/os-install:alpine` |
+| Debian | `ghcr.io/laglessgg/os-install:debian` |
+| Ubuntu | `ghcr.io/laglessgg/os-install:ubuntu` |
