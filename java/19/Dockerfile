@@ -2,7 +2,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:19-jdk-jammy
 
 LABEL       author="Robert Jansen" maintainer="rjansengd@gmail.com"
 
-LABEL       org.opencontainers.image.source="https://github.com/mcjars/pterodactyl-yolks"
+LABEL       org.opencontainers.image.source="https://github.com/LaglessGG/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         rm -rf /usr/bin/dd \
