@@ -31,6 +31,19 @@ jobs:
           - 23
           - 24
           - 25
+          # GraalVM
+          - graalvm-17
+          - graalvm-20
+          - graalvm-21
+          - graalvm-22
+          - graalvm-23
+          # Zulu
+          - zulu-8
+          - zulu-11
+          - zulu-17
+          - zulu-21
+          - zulu-24
+          - zulu-25
     steps:
       - uses: actions/checkout@v3
       - uses: docker/setup-qemu-action@v2
