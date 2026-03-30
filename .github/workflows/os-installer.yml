@@ -40,4 +40,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/laglessgg/yolks:os-install_${{ matrix.tag }}
+            ghcr.io/laglessgg/os-install:${{ matrix.tag }}
