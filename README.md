@@ -65,6 +65,12 @@ A collection of Docker images for use with Pterodactyl Panel.
 | Java 24 | `ghcr.io/laglessgg/yolks:hytale_24` |
 | Java 25 | `ghcr.io/laglessgg/yolks:hytale_25` |
 
+### Ollama
+
+| Variant | Image |
+|---------|-------|
+| CPU-only | `ghcr.io/laglessgg/yolks:ollama_cpu` |
+
 ### OS
 
 | OS | Image |
